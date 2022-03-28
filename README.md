@@ -26,7 +26,7 @@ When change occurs, ESP8266 will send measured weight to serial console and to t
 
 ### Weight sensor application
 
-![weight_sensor](https://image.dfrobot.com/image/data/SEN0160/SEN0160-Dimension.jpg)
+![weight_sensor](https://i.ibb.co/RB2850z/SEN0160-Dimension.jpg)
 
 ## Web UI
 

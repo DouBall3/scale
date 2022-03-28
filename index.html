@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inuits coffee weight</title>
+        
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="assets/materialize.min.css">
+        <link href="assets/material-icons.css" rel="stylesheet">
+        
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    </head>
+    <body>
+
+        <main class="center-align valign-wrapper grey darken-3 center" style="min-height: 100vh; height: 100vh; justify-content: center;">
+            <div class="grey-text text-lighten-4 large" style="font-size: 15rem">
+                <span id="weight">22.8</span> Kg
+            </div>
+        </main>
+        <footer class="page-footer light-blue" style="position:fixed;bottom:0;left:0;width:100%;">
+            <div class="footer-copyright light-blue">
+                <div class="container">
+                    &copy; 2022 Inuits
+                    <div class="right valign-wrapper">
+                        <span class="red-text valign-wrapper" id="disconnected">
+                            <div class="preloader-wrapper small active" id="spinner">
+                                <div class="spinner-layer spinner-red-only">
+                                    <div class="circle-clipper left">
+                                        <div class="circle"></div>
+                                    </div>
+                                    <div class="gap-patch">
+                                        <div class="circle"></div>
+                                    </div>
+                                    <div class="circle-clipper right">
+                                        <div class="circle"></div>
+                                    </div>
+                                </div>
+                            </div> &nbsp;
+                            <span>Disconnected</span>
+                        </span>
+
+                        <span class="green-text text-lighten-3 valign-wrapper hide" id="connected">
+                            <i class="material-icons">check</i> &nbsp;
+                            <span>Connected</span>
+                        </span>
+                    </div>
+
+                    </div>
+            </div>
+          </footer>
+
+        <!-- Minified jQuery -->
+        <script src="assets/jquery-3.6.0.min.js"></script>
+
+        <!-- Brain -->
+        <script src="brain.js"></script>
+
+        <!-- Compiled and minified JavaScript -->
+        <script src="assets/materialize.min.js"></script>
+    </body>
+</html>

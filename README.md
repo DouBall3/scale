@@ -24,6 +24,10 @@ ESP8266 is polling the weight sensor every 0.5 seconds to see if there is any ch
 
 When change occurs, ESP8266 will send measured weight to serial console and to the WebSocket client.
 
+### Weight sensor application
+
+![weight_sensor](https://image.dfrobot.com/image/data/SEN0160/SEN0160-Dimension.jpg)
+
 ## Web UI
 
 Web UI is standalone, serverless application writen in JavaScript using jQuery framework.

@@ -3,7 +3,7 @@
 ## Repository info
 
 - `scale/` Contains program for ESP8266
-- `WWW/` Contains Web UI written in jQuery
+- `WWW/` Contains Web UI written in JavaScript using jQuery framework
 
 ## ESP8266
 

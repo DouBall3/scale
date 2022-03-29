@@ -38,15 +38,15 @@ double prevWeight = 0;
 
 
 void startWiFi(){
-  WiFi.softAP(ssid, password);
+  boolean ap = WiFi.softAP(ssid, password);
   Serial.print("AP \"");
   Serial.print(ssid);
   Serial.print("\" started with password \"");
   Serial.print(password);
   Serial.println("\"");
-  wifiMulti.addAP("inuits", "{wifi_pw}");
+  
   Serial.print("Connecting");
-  while(wifiMulti.run() != WL_CONNECTED && WiFi.softAPgetStationNum() <1){
+  while(WiFi.softAPgetStationNum() <1){
     delay(250);
     Serial.print(".");
   }

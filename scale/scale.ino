@@ -179,6 +179,7 @@ void setup() {
 void loop() {
   webSocket.loop();
   ArduinoOTA.handle();
+  MDNS.update();
   
   if(millis() - mils > 500){
     double weight = scale.get_units();
